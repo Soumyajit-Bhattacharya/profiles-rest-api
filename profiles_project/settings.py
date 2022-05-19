@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'profile_api.apps.ProfileApiConfig',
+    'profile_api',
     'rest_framework',
     'rest_framework.authtoken',
     'django.contrib.admin',
